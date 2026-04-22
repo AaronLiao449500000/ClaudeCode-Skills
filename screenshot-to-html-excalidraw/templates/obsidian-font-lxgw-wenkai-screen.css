@@ -1,0 +1,31 @@
+/* Obsidian Excalidraw font snippet: LXGW WenKai Screen */
+
+/*
+  Purpose:
+  Map common Excalidraw display font-family targets to LXGW WenKai Screen
+  inside Obsidian for better Chinese reading and editing experience.
+*/
+
+.excalidraw .App,
+.excalidraw-wrapper,
+.excalidraw-svg,
+.excalidraw-svg text {
+  font-family: "LXGW WenKai Screen", "LXGW WenKai", "霞鹜文楷 屏幕阅读版", "霞鹜文楷", "Microsoft YaHei", sans-serif !important;
+}
+
+/* Common Excalidraw family targets */
+.excalidraw-svg text[style*="font-family: Virgil"],
+.excalidraw-svg text[style*="font-family: Helvetica"],
+.excalidraw-svg text[style*="font-family: Cascadia"],
+.excalidraw-svg text[style*="Virgil"],
+.excalidraw-svg text[style*="Helvetica"],
+.excalidraw-svg text[style*="Cascadia"] {
+  font-family: "LXGW WenKai Screen", "LXGW WenKai", "霞鹜文楷 屏幕阅读版", "霞鹜文楷", "Microsoft YaHei", sans-serif !important;
+}
+
+/* Editing textareas */
+.excalidraw textarea,
+.excalidraw input,
+.excalidraw .LayerUI__wrapper {
+  font-family: "LXGW WenKai Screen", "LXGW WenKai", "霞鹜文楷 屏幕阅读版", "霞鹜文楷", "Microsoft YaHei", sans-serif !important;
+}

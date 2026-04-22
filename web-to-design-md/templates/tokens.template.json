@@ -1,0 +1,77 @@
+{
+  "colors": {
+    "background": "",
+    "surface": "",
+    "surface_alt": "",
+    "text_primary": "",
+    "text_secondary": "",
+    "accent": "",
+    "border": "",
+    "success": "",
+    "warning": "",
+    "danger": ""
+  },
+  "typography": {
+    "font_family_display": "",
+    "font_family_body": "",
+    "font_family_mono": "",
+    "h1": {
+      "size": "",
+      "weight": "",
+      "line_height": "",
+      "letter_spacing": ""
+    },
+    "h2": {
+      "size": "",
+      "weight": "",
+      "line_height": "",
+      "letter_spacing": ""
+    },
+    "body": {
+      "size": "",
+      "weight": "",
+      "line_height": "",
+      "letter_spacing": ""
+    },
+    "caption": {
+      "size": "",
+      "weight": "",
+      "line_height": "",
+      "letter_spacing": ""
+    }
+  },
+  "spacing": {
+    "xs": "",
+    "sm": "",
+    "md": "",
+    "lg": "",
+    "xl": "",
+    "section": ""
+  },
+  "radius": {
+    "sm": "",
+    "md": "",
+    "lg": "",
+    "pill": ""
+  },
+  "shadows": {
+    "sm": "",
+    "md": "",
+    "lg": ""
+  },
+  "borders": {
+    "default": "",
+    "strong": ""
+  },
+  "motion": {
+    "fast": "",
+    "normal": "",
+    "slow": "",
+    "easing": ""
+  },
+  "layout": {
+    "container_max": "",
+    "content_max": "",
+    "grid_columns": ""
+  }
+}

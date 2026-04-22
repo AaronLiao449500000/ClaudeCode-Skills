@@ -1,0 +1,23 @@
+{
+  "name": "web-to-design-md",
+  "version": "1.0.0",
+  "description": "Route webpage or screenshot requests into either high-fidelity HTML/CSS reconstruction or reusable design-system extraction.",
+  "type": "module",
+  "bin": {
+    "web-to-design-md": "./bin/web-to-design-md.js"
+  },
+  "scripts": {
+    "route": "node ./scripts/route-request.js",
+    "capture:url": "node ./scripts/capture-page.js",
+    "analyze:image": "python3 ./scripts/analyze-screenshot.py",
+    "extract:style-map": "node ./scripts/extract-style-map.js",
+    "build:design": "node ./scripts/build-design-md.js",
+    "build:clone": "node ./scripts/build-clone-html.js",
+    "run:clone": "node ./scripts/run-clone.js",
+    "run:style": "node ./scripts/run-style.js",
+    "run:hybrid": "node ./scripts/run-hybrid.js"
+  },
+  "dependencies": {
+    "playwright": "^1.54.0"
+  }
+}

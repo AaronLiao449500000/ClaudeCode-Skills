@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "nano-banana-pro": {
+      "name": "Nano Banana Pro",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=nano-banana-pro",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "agent-browser": {
+      "name": "Agent Browser",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=agent-browser",
+      "source": "skillhub",
+      "version": "0.2.0"
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=obsidian",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}
